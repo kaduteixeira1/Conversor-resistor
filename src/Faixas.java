@@ -1,8 +1,8 @@
 public class Faixas {
 
+    // Mapeia cada cor para um valor numérico em String
     public String setValorPelaCor(String cor) {
         switch (cor) {
-            // Mapeando cada cor para um valor numérico em String
             case "Preto":
                 return "1";
             case "Marrom":
@@ -23,16 +23,14 @@ public class Faixas {
                 return "8";
             case "Branco":
                 return "9";
-            
-            // Lançando uma exceção se a cor não estiver mapeada
             default:
                 throw new IllegalArgumentException("Cor inválida: " + cor);
         }
     }
 
+    // Mapeia cada cor para um valor numérico
     public double setValorPelaCor3(String cor) {
         switch (cor) {
-            // Mapeando cada cor para um valor numérico
             case "Preto":
                 return 1.0;
             case "Marrom":
@@ -57,14 +55,13 @@ public class Faixas {
                 return 0.1;
             case "Prata":
                 return 0.01;
-            // Lançando uma exceção se a cor não estiver mapeada
             default:
                 throw new IllegalArgumentException("Cor inválida: " + cor);
         }
     }
 
+    // Mapeia cada valor para uma cor
     public String setCorPeloValor(int valor) {
-        // Mapeando cada valor para uma cor
         switch (valor) {
             case 0:
                 return "Preto";
@@ -90,4 +87,4 @@ public class Faixas {
                 throw new IllegalArgumentException("Valor inválido: " + valor);
         }
     }
-}   
+}
