@@ -4,7 +4,7 @@ public class Faixas {
     public String setValorPelaCor(String cor) {
         switch (cor) {
             case "Preto":
-                return "1";
+                return "0";
             case "Marrom":
                 return "1";
             case "Vermelho":
@@ -82,6 +82,34 @@ public class Faixas {
             case 8:
                 return "Cinza";
             case 9:
+                return "Branco";
+            default:
+                throw new IllegalArgumentException("Valor inválido: " + valor);
+        }
+    }
+
+    // Mapeia cada valor para uma cor
+    public String setCorPeloValor3(int valor) {
+        switch (valor) {
+            case 1:
+                return "Preto";
+            case 2:
+                return "Marrom";
+            case 3:
+                return "Vermelho";
+            case 4:
+                return "Laranja";
+            case 5:
+                return "Amarelo";
+            case 6:
+                return "Verde";
+            case 7:
+                return "Azul";
+            case 8:
+                return "Violeta";
+            case 9:
+                return "Cinza";
+            case 10:
                 return "Branco";
             default:
                 throw new IllegalArgumentException("Valor inválido: " + valor);
