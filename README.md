@@ -1,18 +1,14 @@
-## Getting Started
+# Calculadora de Cores para Resistores
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um simples programa em Java que converte valores de resistência em cores. Ele utiliza a classe `Faixas` para mapear os valores numéricos para cores e vice-versa.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Converte valores de resistência em cores para resistores.
+- Exibe as cores associadas ao valor da resistência.
+- Implementa a lógica de atribuição de faixas com base na posição do dígito.
+- 
+1. Clone o repositório:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
